@@ -26,7 +26,3 @@ The program includes a function to visualize the decision boundary of the ANN. T
 model = build_model(X, y, 3, print_loss=True, passes=10000)
 In this example, the program builds an ANN with 3 nodes in the hidden layer. It trains the ANN for 10000 passes and prints the loss after every 1000 passes.
 ```
-
-## Note
-This is a simple program and does not use real-world images. The image is represented as a 2D array of numbers, where each number represents a pixel color. The flood fill algorithm is demonstrated step by step, with a 1-second pause between each step for visualization.
-
